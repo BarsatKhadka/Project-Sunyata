@@ -9,38 +9,38 @@
 
 ```
 Project-Sunyata/
-  ai-philosopher/
+  docs/
     literature_review.md
     architecture_notes.md
     implementation_plan.md        ← this file
-    src/
-      argument_state.py            Phase 1
-      constructor.py               Phase 1
-      destructor.py                Phase 1
-      dialogue_manager.py          Phase 1
-      hidden_state.py              Phase 4
-      unlearning/
-        build_forget_set.py        Phase 2
-        run_unlearning.py          Phase 2
-        evaluate_unlearning.py     Phase 2
-      training/
-        lora_destructor.py         Phase 3a
-        lora_constructor.py        Phase 3b
-        lora_socratic.py           Phase 3c
-        joint_training.py          Phase 5
-      evaluation/
-        ablation.py                Phase 7
-        synthetic_dilemmas.py      Phase 7
-        metrics.py                 Phase 7
-    data/
-      forget_set/
-      retain_set/
-      lora_training/
-      synthetic_dilemmas/
-    experiments/
-      logs/
-      checkpoints/
-    paper/
+  src/
+    argument_state.py              Phase 1
+    constructor.py                 Phase 1
+    destructor.py                  Phase 1
+    dialogue_manager.py            Phase 1
+    hidden_state.py                Phase 4
+    unlearning/
+      build_forget_set.py          Phase 2
+      run_unlearning.py            Phase 2
+      evaluate_unlearning.py       Phase 2
+    training/
+      lora_destructor.py           Phase 3a
+      lora_constructor.py          Phase 3b
+      lora_socratic.py             Phase 3c
+      joint_training.py            Phase 5
+    evaluation/
+      ablation.py                  Phase 7
+      synthetic_dilemmas.py        Phase 7
+      metrics.py                   Phase 7
+  data/
+    forget_set/
+    retain_set/
+    lora_training/
+    synthetic_dilemmas/
+  experiments/
+    logs/
+    checkpoints/
+  paper/
 ```
 
 ---
